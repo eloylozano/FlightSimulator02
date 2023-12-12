@@ -1,0 +1,530 @@
+*{
+    font-family:  Poppins , Helvetica , calibri, sans-serif;
+    margin: 0;
+}
+
+.home{
+    height: 75vh;
+}
+
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+}
+
+.header{
+    display: flex;
+}
+
+.logo-container{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+}
+
+.box{
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+.box h1{
+    color: white;
+    font-size: 5em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.hr-main{
+    margin: 0 auto;
+    height: 6px;
+    width: 60%;
+    background-color: #FFC436;
+    border: 0px;
+    border-radius: 100px;
+    margin-bottom: 20px
+}
+
+.description{
+    backdrop-filter: blur(10px);
+    width: 70%;
+    text-align: center;
+    border-radius: 40px;
+    margin: 50px  auto;
+    margin-bottom: 0;
+    padding: 20px;
+    color: #fff;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2) ;
+}
+
+
+.detalles-container{
+    height: 200px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.detalles-button{
+    background-color: #FFC436;
+    border-radius: 100px;
+    padding: 5px;
+    border: 0px;
+}
+
+.detalles-button a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: white;
+}
+
+.award{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.award h4{
+    font-size: 2em;
+}
+
+.award img{
+    width: 150px;
+}
+
+.award q{
+    margin-top: 10px;
+    font-style: italic;
+}
+
+
+.link-box{
+    display: flex;
+    float: right;
+    margin-right: 40px;
+}
+
+.link-container img{
+    width: 20px;
+    margin-bottom: 40px;
+}
+
+.contenidos{
+    margin: 30px 0 30px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.title-contenidos p{
+    font-size: 2em;
+    margin: 20px;
+}
+
+.contenidos hr{    
+    align-items: center;
+    height: 6px;
+    width: 100px;
+    background-color: white;
+    border: 0px;
+    border-radius: 100px;
+}
+
+/* ............................................................................... */
+
+.gallery{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-box{
+    width: 80%;
+    padding: 50px;
+    height: max-content;
+}
+
+.bigpic-box{
+    flex: 1;
+    object-fit: contain;
+    height: 100%;
+}
+
+#large-image {
+    width: 100%;
+}
+
+.morepics{
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    float: left;
+}
+
+.morepics img{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.morepics a{
+    
+    margin: 0 5px;
+}
+
+/* ............................................................................... */
+
+.rewards-container{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+@media (width < 1080px )
+{
+    .fulltable{ display: none;}
+}
+
+@media (width > 1080px )
+{
+    .media{ display: none;}
+
+    .box {
+        margin-top: 200px;
+    }
+}
+
+
+.fulltable{
+    text-align: center;
+    margin: 50px 0 50px;
+}
+
+.fulltable td{
+    width: 250px;
+    padding: 5px 40px;
+
+}
+
+.valoration-media{
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.valoration-media a{
+    text-decoration: none;
+    color: white;
+}
+
+.valoration-txt{
+    font-size: 1em;
+}
+
+.valoration-txt td{
+    padding: 5px 40px;
+}
+
+.valoration-txt q{
+    font-style: italic;
+}
+
+.valoration-num{
+    font-size: 3em;
+}
+
+.valoration-num td{
+    padding: 30px 40px;
+}
+
+
+/* -------------------------------------------------------------------------------------------- */
+.small-media{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 10px;
+    row-gap: 80px;
+    align-items: center;
+    justify-items: center;
+
+}
+.media{
+    width: 350px;
+    height: 350px;
+    text-align: center;
+}
+
+.media-name{
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.media-txt{
+    font-size: 1.5rem;
+    margin: 50px 0;
+}
+
+.media-num{
+    font-weight: 400;
+    font-size: 4em;
+}
+/* -------------------------------------------------------------------------------------------- */
+.specs-info{
+    background-color: white;
+    padding: 40px;
+}
+
+.moreinfo h3{
+    padding-bottom: 20px;
+}
+
+.moreinfo h4{
+    padding-top: 20px;
+}
+
+.info-pegi{
+    display: flex;
+}
+
+.pegi-logo{
+    float: left;
+}
+
+.pegi-txt{
+    padding-left: 30px;
+}
+
+.pegi-txt a{
+    color: black;
+}
+
+.minrequirements{
+    padding-top: 30px;
+}
+
+.table-req{
+    text-align: left;
+}
+
+.table-req hr{
+    height: 1px;
+    width: 500px;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 10px;
+}
+
+.table-req table{
+    padding: 3px;
+    display: grid;
+    width: 600px;
+}
+
+.element{
+    width: 200px;
+}
+
+@media (width < 700px){
+    .table-req hr{
+        width: 100%;
+    }
+
+    .table-req tbody{
+        width: 100%;
+    }
+
+    .table-req table{
+        width: 80%;
+    }
+    
+    .field{
+        align-items: center;
+        justify-items: center;
+        width: 87%;
+    }
+}
+/* ------------------------------------------------------------------------------------ */
+.details{
+    padding-bottom: 40px;
+    background-color: #fff;
+}
+
+.formulario{
+    background-image: url(assets/img/asphalt-texturelong.png);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+}
+
+.form-info-box{
+    margin: 50px 0;
+    flex: flex;
+    justify-content: center;
+}
+
+.form-box{
+    background-color: grey;
+}
+
+.sectioncontact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+
+.contact-box{
+    color: black;
+	max-width: 850px;
+    margin-top: 0px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+    backdrop-filter: blur(15px);
+}
+
+.h4contact{
+    color: black;
+    text-align: center;
+}
+
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 100%;
+    border-bottom: 2px solid lightgrey;
+}
+
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+
+.inputbox textarea{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: black;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.field{
+    height: 200px;
+	border: 2px solid lightgray;
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	transition: .3s;
+}
+
+textarea{
+	resize: none;
+    width: 315px;
+    border-radius: 5px;
+}
+
+
+.field:focus{
+    border: 2px solid grey;
+    background-color: lightgray;
+}
+
+.form-button{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form-button button{
+    padding: 0 10px;
+    border-radius: 100px;
+    height: 30px;
+    font-weight: 600;
+    border: 0px;
+}
+
+/* --------------------------------------------------------------------------- */
+
+.footer{
+    background-color:#3785ce;
+    color: white;
+    height: 10vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.footer p{
+    padding:0 20px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Flight Simulator</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="/assets/img/FS-logo.png">
+
+</head>
+
+<body>
+    <div class="home">
+        <div class="header">
+            <video src="/assets/video/Trailer.mp4" autoplay="true" muted="true" loop="true"></video>
+
+            <div class="content-header">
+                <div class="logo-container">
+                    <a href=""><img src="/assets/img/FlightSimulator-width-logo.png" width="200px"></a>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="box">
+                <h1>Microsoft Flight Simulator 2020</h1>
+                <hr class="hr-main">
+                <div class="description">
+                    <p>
+                        Desde aeronaves ligeros hasta aviones de fuselaje ancho, vuela con los aviones más
+                        detallados y
+                        precisos en la nueva generación del Microsoft Flight Simulator. Pon a prueba tus habilidades
+                        de
+                        pilotaje en el reto del vuelo nocturno, la simulación atmosférica en tiempo real y las
+                        condiciones climáticas en directo en un mundo dinámico y vivo.
+                        Surca los cielos y disfruta la alegría de volar en la próxima generación de Microsoft Flight
+                        Simulator. Crea tu plan de vuelo hacia cualquier parte del planeta. El mundo está al alcance
+                        de
+                        la mano.
+                    </p>
+                </div>
+                <div class="secondmain">
+                    <div class="detalles-container">
+                        <button class="detalles-button"><a href="/index.html#detalles"
+                                target="_self">Detalles</a></button>
+                    </div>
+
+                    <div class="award">
+                        <h4>The Game Awards</h4>
+                        <div class="award-img"><a
+                                href="https://www.asobostudio.com/news/microsoft-flight-simulator-awards-nominations"
+                                target="_blank"><img src="/assets/img/Game-Awards.png"></a></div>
+                        <q>Mejor juego de simulación 2020</q>
+                    </div>
+                    <div class="link-container">
+                        <div class="link-box">
+                            <a href="https://youtu.be/stZl-yBL0PY" target="_blank"><img
+                                    src="/assets/img/ext-link.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rewards-container">
+        <div class="contenidos">
+            <div class="title-contenidos">
+                <p>Imágenes</p>
+            </div>
+            <hr>
+            <div class="gallery">
+                <div class="gallery-box">
+                    <div class="bigpic-box">
+                        <a href="" id="imglink" target="_blank"><img src="/assets/img/pic01.png" id="large-image"
+                                class="bigpic"></a>
+                        <div class="morepics">
+                            <a href=""><img src="/assets/img/pic01.png" class="thumbnail"></a>
+                            <a href=""><img src="/assets/img/pic02.png" class="thumbnail"></a>
+                            <a href=""><img src="/assets/img/pic03.png" class="thumbnail"></a>
+                            <a href=""><img src="/assets/img/pic04.png" class="thumbnail"></a>
+                            <a href=""><img src="/assets/img/pic05.png" class="thumbnail"></a>
+                            <a href=""><img src="/assets/img/pic06.png" class="thumbnail"></a>
+                        </div>
+                    </div>
+                    <script>
+                        const thumbnails = document.querySelectorAll(".thumbnail");
+                        const largeImage = document.getElementById("large-image");
+                        const linkimg = document.getElementById("imglink");
+                        thumbnails.forEach(thumbnail => {
+                            thumbnail.addEventListener("click", (event) => {
+                                event.preventDefault();  // Evitar la recarga de la página
+                                largeImage.src = thumbnail.src;
+                                linkimg.href = thumbnail.src;
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+        <table class="fulltable">
+            <tr class="valoration-media">
+                <td><a href="https://www.ign.com/articles/microsoft-flight-simulator-review" target="_blank">IGN</a>
+                </td>
+                <td><a href="https://www.metacritic.com/game/microsoft-flight-simulator/" target="_blank">MetaCritic</a>
+                </td>
+                <td><a href="https://vandal.elespanol.com/analisis/pc/microsoft-flight-simulator/74274#p-13"
+                        target="_blank">Vandal</a></td>
+                <td><a href="https://www.xataka.com/tag/microsoft-flight-simulator">Xataka</a></td>
+            </tr>
+            <tr class="valoration-txt">
+                <td><q>Ahora eres libre de moverte por todo el planeta</q></td>
+                <td><q>It's not just a game, it's a phenomenon</q></td>
+                <td><q>Ambicioso y sorprendente</q></td>
+                <td><q>Fiel a la realidad</q></td>
+            </tr>
+            <tr class="valoration-num">
+                <td>10/10</td>
+                <td>9,1/10</td>
+                <td>8,5/10</td>
+                <td>9,2/10</td>
+            </tr>
+            <tr class="ranks">
+                <td><img src="/assets/img/rank-5.jpg" width="70px"></td>
+                <td><img src="/assets/img/rank-5.jpg" width="70px"></td>
+                <td><img src="/assets/img/rank-4.jpg" width="70px"></td>
+                <td><img src="/assets/img/rank-5.jpg" width="70px"></td>
+            </tr>
+        </table>
+        <div class="small-media">
+            <div class="media">
+                <div class="media-name">
+                    <p>IGN</p>
+                </div>
+                <div class="media-txt">
+                    <q>Ahora eres libre de moverte por todo el planeta</q>
+                </div>
+                <div class="media-num">10/10
+                </div>
+            </div>
+            <div class="media">
+                <div class="media-name">
+                    <p>MetaCritic</p>
+                </div>
+                <div class="media-txt">
+                    <q>It's not just a game, it's a phenomenon</q>
+                </div>
+                <div class="media-num">9,1/10</div>
+            </div>
+            <div class="media">
+                <div class="media-name">
+                    <p>Vandal</p>
+                </div>
+                <div class="media-txt">
+                    <q>Ambicioso y sorprendente</q>
+                </div>
+                <div class="media-num">8,5/10</div>
+            </div>
+            <div class="media">
+                <div class="media-name">
+                    <p>Xataka</p>
+                </div>
+                <div class="media-txt">
+                    <q>Fiel a la realidad</q>
+                </div>
+                <div class="media-num">9,2/10</div>
+            </div>
+        </div>
+
+    </div>
+    <div class="details" id="detalles">
+        <div class="specs-info">
+            <div class="moreinfo">
+                <h3>Información</h3>
+                <div class="info-pegi">
+                    <div class="pegi-logo">
+                        <img src="/assets/img/PEGI_3.png" width="45px">
+                    </div>
+                    <div class="pegi-txt">
+                        <p><a href="https://pegi.info/" target="_blank">PEGI 3</a></p>
+                        <p>Compras dentro del juego</p>
+                    </div>
+                </div>
+                <div class="info-editor">
+                    <h4>Editor</h4>
+                    <p>Xbox Game Studios</p>
+                </div>
+                <div class="info-developer">
+                    <h4>Desarrollador</h4>
+                    <p>Asobo Studios</p>
+                </div>
+                <div class="info-gender">
+                    <h4>Género</h4>
+                    <p>Simulador</p>
+                </div>
+                <div class="info-platforms">
+                    <h4>Plataformas</h4>
+                    <p>Xbox Series X|S</p>
+                    <p>Windows 10/11</p>
+                    <p>Nube</p>
+                </div>
+                <div class="info-release">
+                    <h4>Fecha de lanzamiento</h4>
+                    <p>Xbox Series X|S: 27 de julio de 2021</p>
+                    <p>Windows 10/11: 18 de agosto de 2020</p>
+                </div>
+                <div class="table-req">
+                    <table>
+                        <h4>Requisitos mínimos</h4>
+                        <tr>
+                            <td class="element"><b>SO</b></td>
+                            <td>Windows 10 (v. 1909)</td>
+                        </tr>
+                    </table>
+                    <hr>
+                    <table>
+                        <tr>
+                            <td class="element"><b>Procesador</b></td>
+                            <td>Intel i5-4460 / Ryzen 3 1200</td>
+                        </tr>
+                    </table>
+                    <hr>
+                    <table>
+                        <tr>
+                            <td class="element"><b>GPU</b></td>
+                            <td>NVIDIA GTX 770 / Radeon RX 570</td>
+                        </tr>
+                    </table>
+                    <hr>
+                    <table>
+                        <tr>
+                            <td class="element"><b>Memoria</b></td>
+                            <td>8 GB RAM, 2 GB VRAM</td>
+                        </tr>
+                    </table>
+                    <hr>
+                    <table>
+                        <tr>
+                            <td class="element"> <b>Almacenamiento</b></td>
+                            <td>150 GB</td>
+                        </tr>
+                    </table>
+                    <hr>
+                    <table>
+                        <tr>
+                            <td class="element"><b>DirectX</b> </td>
+                            <td>DirectX 11</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="formulario">
+            <div class="form-info-box">
+                <section class="sectioncontact">
+                    <form method="post">
+
+                        <h3 class="h4contact">Contáctanos</h3>
+                        <div class="inputbox">
+                            <input type="text" required>
+                            <label for="">Nombre</label>
+                        </div>
+                        <div class="inputbox">
+                            <input type="email" required>
+                            <label for="">Email</label>
+                        </div>
+                        <textarea placeholder="Escribe aquí tu opinión" class="field"></textarea>
+                        <div class="form-button"><button> <a style="text-decoration: none; color: black;"
+                                    href="mailto:lozanobarrioseloy@gmail.com?subject=Consulta&body">Enviar</a></button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>
+            © 2023 · Eloy Lozano Barrios · <a style="text-decoration: none;"
+                href="mailto:lozanobarrioseloy@gmail.com?subject=Consulta&body">lozanobarrioseloy@gmail.com</a>
+
+    </div>
+</body>
+
+</html>
